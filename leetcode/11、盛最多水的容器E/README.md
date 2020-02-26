@@ -4,7 +4,7 @@
 
 说明：你不能倾斜容器，且 n 的值至少为 2。
 
-<img src="/Users/moby/Library/Application%20Support/typora-user-images/newname2020-02-2521.46.31.png" alt="newname2020-02-2521.46.31" style="zoom:40%;" />
+<img src="https://tva1.sinaimg.cn/large/0082zybply1gcaabhquudj30yq0is41v.jpg" alt="newname2020-02-2521.46.31" style="zoom:40%;" />
 
 **示例:**
 
@@ -36,7 +36,7 @@ class Solution {
 
 设置一个面积最大值，两层循环把所有情况都遍历出来，通过 Math.max() 来求出最大值面积。时间复杂度 O(n^2^)
 
-<img src="/Users/moby/Library/Application%20Support/typora-user-images/newname2020-02-2521.50.39.png" alt="newname2020-02-2521.50.39" style="zoom: 50%;" />
+<img src="https://tva1.sinaimg.cn/large/0082zybply1gcaabltfadj30pc05ggm2.jpg" alt="newname2020-02-2521.50.39" style="zoom: 50%;" />
 
 **2、左右夹逼**
 
@@ -55,4 +55,4 @@ class Solution {
 
 设置左右边界  i、j ，放到数组两端，短的一方向内移动，计算出面积保存到 max 中。时间复杂度为 O (n)
 
-<img src="/Users/moby/Library/Application%20Support/typora-user-images/newname2020-02-2522.05.12.png" alt="newname2020-02-2522.05.12" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/0082zybply1gcaaby0cdbj30pe05awen.jpg" alt="newname2020-02-2522.05.12" style="zoom:50%;" />

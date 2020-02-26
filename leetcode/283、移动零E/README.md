@@ -39,7 +39,7 @@ class Solution {
 
 先设置一个计数器。遍历数组，如数组中的值不为 0，则把当前值赋值给下标为 i 的元素，判断 i 和 j 是否相等。如果不相等，下标为 j 的数组元素赋值为 0，计数器加 1；反之，跳过此 if 判断，计数器加 1。时间复杂度为 O(n)。
 
-<img src="https://tva1.sinaimg.cn/large/0082zybply1gc8yic70owj30qe02s0sv.jpg" alt="newname2020-02-2521.15.04" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/0082zybply1gcaacmsprsj30qe02sq2v.jpg" alt="newname2020-02-2521.15.04" style="zoom:50%;" />
 
 **2、先前移非零数，后补零**
 
@@ -62,4 +62,4 @@ class Solution {
 
 设置一个计数器。遍历数组，判断元素是否为 0 ，不为零则交换，计数器加1。遍历结束后，判断计数器是否小于数组长度，小于则补零。时间复杂度为 O(n)
 
-<img src="https://tva1.sinaimg.cn/large/0082zybply1gc8ykcds3wj30q8056jrt.jpg" alt="newname2020-02-2521.17.00" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/0082zybply1gcaacjobjsj30q8056glq.jpg" alt="newname2020-02-2521.17.00" style="zoom:50%;" />
