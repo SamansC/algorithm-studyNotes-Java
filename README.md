@@ -7,8 +7,8 @@
 
 
 1. [介绍](#Introduction)
-2. [常见 Easy 例题](#常见 Easy 例题：)
-3. [常见 Middle 例题](#常见 Middle 例题：)
+2. [常见 Easy 例题](#常见 Easy 例题)
+3. [常见 Middle 例题](#常见 Middle 例题)
 
 ----
 
