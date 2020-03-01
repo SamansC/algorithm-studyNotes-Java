@@ -106,8 +106,7 @@ class Solution {
             lists.add(Arrays.asList(nums[i], nums[j], nums[k]));
             while (j < k && nums[j] == nums[j + 1]) j++;
             while (j < k && nums[k] == nums[k - 1]) k--;
-            j++;
-            k--;
+            j++;k--;
           }
           else if (sum < 0) j++;
           else if (sum > 0) k--;
