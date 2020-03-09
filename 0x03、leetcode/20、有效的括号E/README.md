@@ -54,7 +54,7 @@
 class Solution {
   public boolean isValid(String s) {
     //字符串为空返回 true
-    if ("".equals(s)) return true;
+    if (s.isEmpty()) return true;
     //字符串长度为奇数，直接返回 false
     if ( s.length() % 2 == 1) return false;
     Stack<Character> stack =new Stack<>();
@@ -88,7 +88,7 @@ class Solution {
 class Solution {
   public boolean isValid(String s) {
     //字符串为空返回 true
-    if ("".equals(s)) return true;
+    if (s.isEmpty()) return true;
     //字符串长度为奇数，直接返回 false
     if ( s.length() % 2 == 1) return false;
     //创建 map 存储括号的匹配项
